@@ -1,0 +1,23 @@
+toggle_key: L
+
+color_range: 20
+#This can allow for higher check_cycles
+use_tokio: true
+# Check Cycles is how many checks there are per seccond.
+check_cycles: 60
+# Minimum Distance from center of the screen for the ball to be detected
+check_radius: 500
+# Pixels that need to satisfy the target color
+minimum_density: 400
+
+log_hits: false
+
+checks:
+  density: true
+  radius: true
+
+# Color range of ball
+target_color:
+  r: 190
+  g: 63
+  b: 63
